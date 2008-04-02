@@ -1,0 +1,60 @@
+.tokenizer {
+	border:1px solid #989898;
+	padding:0px;
+	margin:3px 0px;
+	background-color:#fff;
+	cursor:text;
+	width:510px;
+}
+.token input {
+	visibility:hidden;
+	width:1px;
+	height:1px;
+	display:inline;
+	margin:0px;
+	padding:0px;
+}
+.token {
+	padding:0;
+	margin:0 3px 0px 0px;
+	display:inline;
+	border:1px solid #D5D4CD;
+	font-size:12px;
+}
+.token img {
+	cursor:pointer;
+}
+.tokenizer_input {
+	background:transparent;
+	border:none;
+	padding:0px;
+	margin:1px;
+	margin-top:2px;
+	width:90px;
+}
+
+
+
+div.tokenizer_autocomplete {
+  position:absolute;
+  width:250px;
+  background-color:white;
+  border:1px solid #888;
+  margin:0px;
+  padding:0px;
+	font-size:12px;
+}
+div.tokenizer_autocomplete ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div.tokenizer_autocomplete ul li.selected { background-color: #FFFCA8;}
+div.tokenizer_autocomplete ul li {
+  list-style-type:none;
+  display:block;
+  margin:0px;
+  padding:1px 5px;
+  border-bottom:1px solid #F5F4E7;
+  cursor:pointer;
+}

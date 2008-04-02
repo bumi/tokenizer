@@ -1,0 +1,39 @@
+/*
+
+Tokenizer
+created by: Michael Bumann - http://railslove.com
+questions? michael@railslove.com
+
+The Tokenizer allows you create inputs fields similar to Apple Mails's or facebook's receiver field.
+It uses the script.aculo.us autocompleter
+
+NEEDS TO BE REFACTORED! - but works...  ;)
+
+If you have questions. please email me: michael@railslove.com
+
+USAGE:
+=========
+
+	<div id="receivers" class="tokenizer">
+	</div>
+	<script type="text/javascript" charset="utf-8">
+	  tokenizer = new Tokenizer("receivers",{inputName:"receivers[]",autocompleteURL:"/posts/receivers", autocompleteParam:"user"});
+	</script>
+	
+	
+THIS WILL CREATE:
+
+	<div class="tokenizer">
+		<div style="display: inline;"></div>
+			<input name="tokens_input" class="tokenizer_input" style="width: 20px;" autocomplete="off"/>
+			<div class="tokenizer_autocomplete" style="display: none;"></div>
+		</div>
+	</div>
+	
+TOKENS LOOK LIKE:
+	
+	<div class="token" id="token_1">
+		<input type="checkbox" name="receivers[]" value="dude"/><span>dude</span><img src="/images/buttons/token_close.png" alt="close"/>
+	</div>
+
+*/
